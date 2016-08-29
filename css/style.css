@@ -435,6 +435,13 @@ img {
 .recent-post-img {
 	padding: 0;
 }
+.recent-post-img-img {
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+}
+
+
 .recent-post-title h4 {
 	padding: 0;
 	margin-top: 12px;
@@ -494,5 +501,3 @@ footer {
 		display: block!important;
 	}
 }
-
-
