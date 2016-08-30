@@ -47,7 +47,7 @@ header {
 
 
 .header-top {
-	background-color: #F4F4F4;
+	background-color: #f4f4f4;
 }
 
 .header-logo {
@@ -61,22 +61,22 @@ header {
 
 .header-title {
 	margin: 0;
-	color: #333333;
+	color: #333;
 }
 .header-top-title {
 	font-weight: bold;
 	font-size: 4em;
 }
 .header-top-small-tile {
-	color: #888888;
+	color: #888;
 }
 
 
 
 
 .header-nav {
-	background-color: #000000;
-	color: #FFFFFF;
+	background-color: #000;
+	color: #fff;
 }
 
 .menu-ul {
@@ -90,24 +90,24 @@ header {
 	text-align: center;
 }
 .selected {
-	color: #E03821;
+	color: #e03821;
 }
 
 .menu-item:hover, 
 .menu-item:focus {
-	color: #E03821;
+	color: #e03821;
 }
 
 
 .bottom-item {
-	background-color: #FFFFFF;
-	color: #000000;
+	background-color: #fff;
+	color: #000;
 	text-align: center;
 	text-transform: uppercase;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding: 0;
-	border-right: 1px solid #C2C2C2;
+	border-right: 1px solid #c2c2c2;
 }
 
 .bottom-item:last-of-type {
@@ -115,12 +115,12 @@ header {
 }
 
 .bottom-item:hover, .bottom-item:focus {
-	color: #FFFFFF;
-	background-color: #0D0D0D;
+	color: #fff;
+	background-color: #0d0d0d;
 }
 
 .bottom-item:hover .bottom-item-title:after {
-	border-top-color: #0D0D0D;
+	border-top-color: #0d0d0d;
 }
 
 .bottom-item-title {
@@ -129,12 +129,12 @@ header {
 	padding-bottom: 30px;
 	height: 134px;
 	position: relative;
-	background-color: #FFFFFF;
+	background-color: #fff;
 	z-index: 2;
 }
 
 .bottom-item:hover .bottom-item-title{
-	background-color: #0D0D0D;
+	background-color: #0d0d0d;
 }
 
 .bottom-item-title:after {
@@ -212,7 +212,7 @@ img {
 }
 
 .article-post-view {
-	background-color: #FFFFFF;
+	background-color: #fff;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom: 30px;
@@ -234,33 +234,37 @@ img {
 .article-tag-item {
 	text-transform: uppercase;
 	font-size: 22px;
-	color: #C5BFBB;
+	color: #c5bfbb;
 }
 
 .article-tag:before {
 	width: 80px;
-    height: 8px;
-    background: url(images/brixton-border-left.png) 0 1px no-repeat;
-    margin-top: 12px;
-    margin-left: -90px;
-    position: absolute;
-    content: '';
+	height: 8px;
+	background-repeat: no-repeat;
+	background-position: 0 1px no-repeat;
+	background-image: url(../images/brixton-border-left.png);
+	margin-top: 12px;
+	margin-left: -90px;
+	position: absolute;
+	content: '';
 }
 
 .article-tag:after {
 	width: 80px;
-    height: 8px;
-    background: url(images/brixton-border-right.png) 0 1px no-repeat;
-    margin-top: 12px;
-	margin-top-color:#c5bfbb;
-    margin-left: 10px;
-    position: absolute;
-    content: '';
+	height: 8px;
+	background-repeat: no-repeat;
+	background-position: 0 1px no-repeat;
+	background-image: url(../images/brixton-border-right.png);
+	margin-top: 12px;
+	margin-top-color: #c5bfbb;
+	margin-left: 10px;
+	position: absolute;
+	content: '';
 }
 .article-title {
 	font-family: 'Oswald', sans-serif;
 	font-size: 44px!important;
-	color: #333333;
+	color: #333;
 	line-height: 48px;
 }
 .article-desc {
@@ -286,13 +290,13 @@ img {
 }
 .more-link {
 	font-size: 22px;
-	color: #000000;
+	color: #000;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 1px;
 }
 .more-link:hover {
-	color: #000000;
+	color: #000;
 	border-bottom: 2px solid #333;
 	text-decoration: none;
 }
@@ -315,11 +319,11 @@ img {
 .post-meta {
 	margin-left: -15px;
 	padding-left: 30px;
-	padding-right: 30px;
+	padding-right: 0px;
 	height: 47px;
 	line-height: 47px;
 	float: left;
-	color: #FFFFFF;
+	color: #fff;
 	background-color: #333;
 	text-transform: uppercase;
 	font-size: 16px;
@@ -334,26 +338,26 @@ img {
 }
 
 .post-meta a:hover {
+	text-decoration: none;
+	border-bottom: 2px solid #fff;
 	
 }
 
 .post-meta:after {
-    width: 40px;
-    height: 47px;
-    background: url(../images/brixton-meta-ribbon.png) 0 0 no-repeat;
-    margin-top: 0px;
-    margin-left: 0px;
-    position: relative;
+	width: 40px;
+	height: 47px;
+	background: url(../images/brixton-meta-ribbon.png) 0 0 no-repeat;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: relative;
 	float: right;
-    bottom: 0;
-    right: -30px;
-    content: '';
+	bottom: 0;
+	right: -30px;
+	content: '';
 }
 
 .post-meta-item {
 	color: #fff;
-}
-.share-social {
 }
 
 .post-meta-item:hover {
@@ -361,6 +365,102 @@ img {
 	text-decoration: none;
 	border-bottom: 2px solid #333;
 }
+.share-list {
+	height: 36px;
+	line-height: 36px;
+	margin-right: -15px;
+	padding-right: 30px;
+	font-size: 20px;
+	text-align: right;
+	margin-top: 5px;
+}
+.share-item {
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	margin-left: 6px;
+	background-color: #ddd;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+}
+.share-item:hover {
+	background-color: #e03821;
+}
+.related-post {
+	padding-top: 30px;
+
+}
+
+.related-post .title h2 {
+	margin-top: 12px;
+	margin-bottom: 30px;
+	font-size: 33px;
+	color: #333;
+	font-weight: 600;
+	text-align: center;
+
+}
+.related-item-img img {
+	width: 100%;
+	height: auto;
+	max-width: 206px;
+	max-height: 114px;
+}
+.related-post-title, .related-post-date {
+	margin: 0;
+}
+.related-post-title {
+	padding-top: 4px;
+	font-size: 14px;
+	line-height: 22px;
+	color: #333;
+}
+.related-post-date {
+	font-size: 14px;
+	color: #bbb;
+	font-style: italic;
+	line-height: 16px;
+}
+.related-post-date a:hover {
+	color: #bbb;
+}
+.pagination {
+	margin: 0;
+}
+.cd-pagination {
+	padding: 0;
+	margin: 0;
+}
+.cd-pagination li span  , .cd-pagination li a, .cd-pagination li{
+	border: none;
+	background-color: #FFFFFF;
+}
+.cd-pagination li .current   , .cd-pagination li:hover, .cd-pagination li a:hover{
+	background-color: #000;
+	color: #FFFFFF;
+}
+
+
+
+
+.pagination nav {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*=================================== Aside layout =====================================*/
