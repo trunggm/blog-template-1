@@ -495,7 +495,7 @@ footer {
 
 @media screen and (min-width:1200px){
 	.affix {
-		top: 8px;
+		top: 0;
 		z-index: 10;
 		width: 1170px!important;
 		display: block!important;
