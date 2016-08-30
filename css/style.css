@@ -395,9 +395,9 @@ img {
 .related-post .title h2 {
 	margin-top: 12px;
 	margin-bottom: 30px;
-	font-size: 33px;
+	font-size: 30px;
 	color: #333;
-	font-weight: 600;
+	font-weight: normal;
 	text-align: center;
 
 }
@@ -426,28 +426,48 @@ img {
 	color: #bbb;
 }
 .pagination {
-	margin: 0;
+	width: 100%;
+	color: #000000;
+	background-color: #F4F4F4;
+	margin-top: 0px;
 }
-.cd-pagination {
-	padding: 0;
-	margin: 0;
+.list-pagination {
+	margin-left: -30px;
+	margin-right: -30px;
 }
-.cd-pagination li span  , .cd-pagination li a, .cd-pagination li{
-	border: none;
+.ul-pagination {
+	list-style-type: none;
+	padding-left: 0px;
+}
+.pagin-item {
+	line-height: 49px;
+	width: auto;
+	float: left;
+	margin-right: 12px;
+}
+.pagin-item-btn {
+	padding-left: 18px;
+	padding-right: 18px;
 	background-color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
-.cd-pagination li .current   , .cd-pagination li:hover, .cd-pagination li a:hover{
+.pagin-item-btn:hover , .current{
 	background-color: #000;
-	color: #FFFFFF;
+	color: #fff;
+}
+.not-set:hover {
+	background-color: #fff;
+	color: #000;
 }
 
 
 
 
-.pagination nav {
-	margin: 0;
-	padding: 0;
-}
+
+
 
 
 
