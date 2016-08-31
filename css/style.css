@@ -89,6 +89,24 @@ header {
 	text-transform: uppercase;
 	text-align: center;
 }
+.nav-search {
+	padding-top: 11px;
+}
+
+
+.search-item {
+
+}
+.search-item-item {
+	display: inline-block;
+
+}
+.search-bar   {
+	width: 81%;
+}
+
+
+
 .selected {
 	color: #e03821;
 }
